@@ -25,8 +25,12 @@ Tutorials available at http://framework7.io/tutorials/
 Appstore apps made with Framework7: http://framework7.io/showcase/
 
 
-demo:
+将官网http://framework7.io的手机屏里面的iframe地址复制出来，写成下面的
+英文demo:
 http://framework7.io/docs-demos/core/badge.html
-中文demo http://framework7.taobao.org/docs-demos/bars-fixed-index.html
 
+中文demo：
+http://framework7.taobao.org/docs-demos/bars-fixed-index.html
+
+字体库：
 http://framework7.io/icons/
