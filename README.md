@@ -25,13 +25,16 @@ Tutorials available at http://framework7.io/tutorials/
 Appstore apps made with Framework7: http://framework7.io/showcase/
 
 
-将官网的手机屏里面的iframe地址复制出来，写成下面的
+将官网的手机屏里面的iframe地址复制出来： 右键-》此框架-》查看框架信息
 
 英文demo:
-http://framework7.io/docs-demos/core/badge.html
+ios：  http://framework7.io/kitchen-sink/core/?theme=ios
+md ：  http://framework7.io/kitchen-sink/core/?theme=md
+
 
 中文demo：
-http://framework7.taobao.org/docs-demos/bars-fixed-index.html
+安卓md:  http://framework7.taobao.org/kitchen-sink-material/
+ios: http://framework7.taobao.org/kitchen-sink-ios/
 
 字体库：
 http://framework7.io/icons/
