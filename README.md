@@ -1,5 +1,3 @@
-ÖÐÎÄÕ¾µã£ºhttp://framework7.taobao.org/
-
 # Framework7
 
 Full Featured Mobile HTML Framework For Building iOS & Android Apps
@@ -25,3 +23,10 @@ Tutorials available at http://framework7.io/tutorials/
 ## Showcase
 
 Appstore apps made with Framework7: http://framework7.io/showcase/
+
+
+demo:
+http://framework7.io/docs-demos/core/badge.html
+ä¸­æ–‡demo http://framework7.taobao.org/docs-demos/bars-fixed-index.html
+
+http://framework7.io/icons/
