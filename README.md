@@ -27,6 +27,9 @@ Appstore apps made with Framework7: http://framework7.io/showcase/
 
 将官网的手机屏里面的iframe地址复制出来： 右键-》此框架-》查看框架信息
 
+
+经实际阅读发现中文的没有英文的新，英文的有一些新的方法的用法。
+
 英文demo:
 
 ios：  http://framework7.io/kitchen-sink/core/?theme=ios
