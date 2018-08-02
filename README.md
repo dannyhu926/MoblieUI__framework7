@@ -24,6 +24,7 @@ Tutorials available at http://framework7.io/tutorials/
 
 Appstore apps made with Framework7: http://framework7.io/showcase/
 
+https://github.com/framework7io/framework7/blob/master/kitchen-sink/core/
 
 将官网的手机屏里面的iframe地址复制出来： 右键-》此框架-》查看框架信息
 
