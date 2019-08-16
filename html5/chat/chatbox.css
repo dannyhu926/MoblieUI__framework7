@@ -25,13 +25,15 @@ body {
     text-align: left;
 }
 
-.chat-sender div:nth-of-type(3) {
-    background-color: white;
-    float: left;
-    margin: 0 50px 10px 50px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 7px;
-    text-indent: -12px;
+.chat-sender div:nth-of-type(3){
+ background-color:white;
+ margin:0 50px 10px 15px;
+ padding:10px 10px 10px 10px;
+ border-radius:7px;
+ text-indent:-12px;
+ display: inline-block;
+ float:left;
+ max-width:58%;
 }
 
 .chat-receiver {
@@ -55,11 +57,13 @@ body {
 }
 
 .chat-receiver div:nth-of-type(3) {
-    float:right;
-    background-color: #b2e281;
-    margin: 0px 50px 10px 50px;
-    padding: 10px 10px 10px 10px;
-    border-radius: 7px;
+ background-color:#b2e281;
+ margin:0px 15px 10px 50px;
+ padding:10px 10px 10px 10px;
+ border-radius:7px;
+ display:inline-block;
+ max-width:58%;
+ float:right;
 }
 
 .chat-receiver div:first-child img,
