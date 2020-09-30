@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单预览示例</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta name="renderer" content="ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,IE=9">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <style>
+        body{margin: 0;padding: 0}
+        img{display: block;width: 100%;height: auto;}
+    </style>
+</head>
+<body style="">
+<div id="test">
+    <img src="images/1.jpg">
+    <img src="images/2.jpg">
+    <div>
+        <img src="images/3.jpg">
+        <img src="images/4.jpg">
+    </div>
+    <img class="hide" src="images/5.jpg">
+</div>
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/fly-zomm-img.min.js"></script>
+<script>
+    $(function () {
+        $('#test').FlyZommImg({
+            rollSpeed: 200,//切换速度
+            miscellaneous: true,//是否显示底部辅助按钮
+            closeBtn: true,//是否打开右上角关闭按钮
+            hideClass: 'hide',//不需要显示预览的 class
+            imgQuality: 'thumb',//图片质量类型  thumb 缩略图  original 默认原图
+            slitherCallback: function (direction, DOM) {//左滑动回调 两个参数 第一个动向 'left,firstClick,close' 第二个 当前操作DOM
+//                   console.log(direction,DOM);
+            }
+        });
+    });
+</script>
+</body>
+</html>
