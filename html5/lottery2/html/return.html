@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>大屏幕抽奖</title>
+    <link rel="stylesheet" href="../css/return.css">
+</head>
+<body>
+<div class="body">
+    <h1>大屏幕抽奖</h1>
+    <div class="users">
+        <!--浏览器可能出现兼容性问题，可用css或js实现-->
+        <marquee class="users" align="absmiddle" behavior="scroll" direction="up"
+                 scrollamount="10" onMouseOut="this.start()" onMouseOver="this.stop()">
+            <ul>
+                <h3 class="1">一等奖（50名）</h3>
+                <li><span>测试130****0090</span><span>测试</span></li>
+                <li><span>张三130****0601</span><span>测试</span></li>
+                <li><span>李四130****1139</span><span>测试</span></li>
+                <li><span>王五130****1158</span><span>测试</span></li>
+                <li><span>狗蛋130****1232</span><span>测试</span></li>
+            </ul>
+            <ul>
+                <h3 class="1">二等奖（100名）</h3>
+                <li><span>张三130****0211</span><span>测试</span></li>
+                <li><span>李四130****0227</span><span>测试</span></li>
+                <li><span>王五130****0298</span><span>测试</span></li>
+                <li><span>狗蛋130****0599</span><span>测试</span></li>
+            </ul>
+            <ul>
+                <h3 class="1">三等奖（150名）</h3>
+                <li><span>张三134****8148</span><span>测试</span></li>
+                <li><span>张三134****8341</span><span>测试</span></li>
+            </ul>
+        </marquee>
+    </div>
+    <div class="buttons">
+        <!-- 方便查看，实际不需要 -->
+        <a href="index.html">
+            <button class="see">返回</button>
+        </a>
+    </div>
+
+    <!-- 音乐播放 -->
+      <audio id="drawMusic" autoplay="autoplay" loop="loop" preload="auto">
+          <source src="../sound/end.mp3" type="audio/mpeg" />
+      </audio>
+</div>
+<script rel="script" src="../js/jquery.min.js"></script>
+</body>
+</html>

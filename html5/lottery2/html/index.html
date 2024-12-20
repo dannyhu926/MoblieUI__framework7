@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title>大屏幕抽奖</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<div class="body">
+    <h1>大屏幕抽奖</h1>
+    <h3 class="1"></h3>
+    <!--浏览器可能出现兼容性问题，可用css或js实现-->
+    <marquee class="users" align="absmiddle" behavior="scroll" direction="up"
+             scrollamount="10" onMouseOut="this.start()" onMouseOver="this.stop()">
+        <ul id="user">
+            <li>张三138****0888</li>
+            <li>李四139****1040</li>
+            <li>王五138****6460</li>
+            <li>赵六139****1040</li>
+            <li>狗蛋138****6460</li>
+            <li>张三138****0888</li>
+            <li>李四139****1040</li>
+            <li>王五138****6460</li>
+            <li>赵六139****1040</li>
+            <li>狗蛋138****6460</li>
+            <li>张三138****0888</li>
+            <li>李四139****1040</li>
+            <li>王五138****6460</li>
+            <li>赵六139****1040</li>
+            <li>狗蛋138****6460</li>
+            <li>张三138****0888</li>
+            <li>李四139****1040</li>
+            <li>王五138****6460</li>
+            <li>赵六139****1040</li>
+            <li>狗蛋138****6460</li>
+            <li>张三138****0888</li>
+            <li>李四139****1040</li>
+            <li>王五138****6460</li>
+            <li>赵六139****1040</li>
+            <li>狗蛋138****6460</li>
+            <li>张三138****0888</li>
+            <li>李四139****1040</li>
+            <li>王五138****6460</li>
+            <li>赵六139****1040</li>
+            <li>狗蛋138****6460</li>
+        </ul>
+    </marquee>
+    <div class="buttons">
+        <button id="yes" class="draw_prize">开始抽奖</button>
+        <!-- 暂时不显示 -->
+        <a class="see" href="return.html" style="display: none">
+            <button>查看中奖结果</button>
+        </a>
+    </div>
+
+    <!-- 音乐播放 -->
+    <audio id="startMusic" loop="loop">
+        <source src="../sound/start.mp3" type="audio/mpeg"/>
+    </audio>
+    <audio id="endMusic" loop="loop">
+        <source src="../sound/end.mp3" type="audio/mpeg"/>
+    </audio>
+</div>
+<script src="../js/jquery.min.js"></script>
+<!-- 无缝滚动插件-->
+<!--<script rel="script" src="../js/jquery.marquee.min.js"></script>-->
+<script rel="script" src="../js/index.js"></script>
+<script>
+    $(function(){
+        // js实现文字滚动方式
+        // var doscroll = function(){
+        //     var $parent = $('.user');
+        //     var $first = $parent.find('li:first');
+        //     var height = $first.height();
+        //     $first.animate({
+        //         height: 0 //或者改成： marginTop: -height + 'px'
+        //     }, 500, function() {// 动画结束后，把它插到最后，形成无缝
+        //         $first.css('height', height).appendTo($parent);
+        //         // $first.css('marginTop', 0).appendTo($parent);
+        //     });
+        // };
+        // setInterval(function(){doscroll()}, 2000);
+    });
+</script>
+</body>
+</html>
